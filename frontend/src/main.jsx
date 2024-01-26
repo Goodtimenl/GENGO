@@ -4,7 +4,7 @@ import React from "react";
 
 import App from "./App";
 
-import Welcome from "./pages/Welcome";
+// import Welcome from "./pages/Welcome";
 import Onboarding from "./pages/Onboarding";
 import Menu from "./pages/Menu";
 import Level from "./pages/Level";
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Welcome />,
+        element: <Onboarding />,
       },
       {
         path: "/onboarding",
