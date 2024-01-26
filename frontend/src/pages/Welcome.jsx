@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line import/no-extraneous-dependencies
 import Spline from "@splinetool/react-spline";
 import "../style/Welcome.css";
 
