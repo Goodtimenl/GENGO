@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT";
+}
+
+#root {
+  overflow: hidden;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+}

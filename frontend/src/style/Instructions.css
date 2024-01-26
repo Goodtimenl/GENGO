@@ -1,0 +1,92 @@
+.container-instructions {
+  position: absolute;
+  top: 4.5%;
+  left: 1.5%;
+}
+
+.instructions {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT";
+  font-size: 1.5em;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  transition: 0.2s;
+}
+
+.instructions:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+/* Modif Rester Start  */
+.container-instructionsR {
+  position: absolute;
+  top: 4.5%;
+  left: 15%;
+}
+
+.instructionsR {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT";
+  font-size: 1.5em;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  transition: 0.2s;
+}
+
+.instructionsR:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+/* Modif Reset END */
+
+.popup {
+  display: block;
+  height: 600px;
+  width: 800px;
+  padding: 1em;
+  margin: 1em 0 0 4em;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+}
+
+.popup-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100px 200px 150px;
+  justify-content: space-around;
+}
+
+.bar {
+  position: absolute;
+  bottom: 2%;
+  left: 15%;
+}
+
+.titleEtapes {
+  text-align: start;
+}
+
+.gauge-place {
+  position: absolute;
+  left: 200%;
+  top: 1250%;
+}
+.etapes {
+  font-weight: bold;
+}
+.etape1,
+.etape2,
+.etape3,
+.etape4 {
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 160px;
+  width: 220px;
+}
