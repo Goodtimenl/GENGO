@@ -69,3 +69,19 @@ a {
   transition: 0.2s;
   transform: scale(1.1);
 }
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 1rem;
+    top: 10%;
+  }
+
+  .niveau1,
+  .niveau2,
+  .niveau3,
+  .niveau4 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

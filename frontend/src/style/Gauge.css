@@ -10,3 +10,15 @@
   border-radius: 8px;
   transition: width 0.3s ease-in-out;
 }
+
+@media (max-width: 600px) {
+  .gauge-container {
+    width: 250px;
+  }
+
+  .gauge {
+    height: 20px;
+    border-radius: 8px;
+    transition: width 0.3s ease-in-out;
+  }
+}
